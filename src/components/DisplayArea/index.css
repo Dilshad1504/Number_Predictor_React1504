@@ -1,0 +1,51 @@
+.or-text {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.num-display-area {
+  width: 96%;
+  height: 70px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  /* margin-right: 7px; */
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 15px;
+}
+
+.predict-btn {
+  flex: 1;
+  background: #33d9ff;
+  color: black;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clear-btn {
+  width: 130px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .btn-row {
+    flex-direction: column;
+  }
+
+  .clear-btn {
+    width: 100%;
+  }
+}
